@@ -162,11 +162,6 @@ body {
     font-size: 6em;
   }
 }
-@media (min-width: 992px) {
-  .bg-text-head {
-    font-size: 4em;
-  }
-}
 @media (max-width: 991.98px) {
   .bg-text {
     display: none;
@@ -182,6 +177,25 @@ body {
     position: relative;
   }
 }
+
+.bg-text-head {
+  position: absolute;
+  margin-bottom: -1em;
+  top: -80px;
+  left: 10px;
+  right: 0;
+  bottom: 0;
+  font-weight: 700 !important;
+  color: rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  .bg-text-head {
+    font-size: 4em;
+  }
+}
+
 .profile-text {
   font-weight: 300;
 }
